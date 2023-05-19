@@ -1,4 +1,5 @@
 # Synthesis of 2.5D Models Based on Monocular Images
+### Boyuan Cheng
 
 ## Usage
 1. Place one or more input images in the folder `input`.
