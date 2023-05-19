@@ -1,5 +1,9 @@
 # Synthesis of 2.5D Models Based on Monocular Images
 
+Pre-trained models are available here:
+Depth Estimation model: [dpt_beit_large_512](https://github.com/isl-org/MiDaS)
+Image Completion model: [Places_512_FullData](https://github.com/fenglinglwb/MAT)
+
 ## 1. Introduction
 With the development of Computer Graphics technology as well as deep learning technology, it has become possible to convert 2D images into 3D models using computer algorithms. In the past few years, many implementations of 3D reconstruction techniques have been proposed, some of which have been widely used in areas such as film and television entertainment, intelligent homes, heritage reconstruction, and autonomous driving and etc. A common method to reconstruct a 3D model is to place multiple depth cameras around an object and capture images simultaneously, and then reconstruct the 3D shape of the object based on the captured images. However, since most systems based on this approach require multiple cameras and synchronization devices, it is difficult for most users to use these systems flexibly. In addition, modeling a 3D scene is generally very complex and time-consuming. Especially in distant scenes that do not require much detail, it is not worth spending much time modeling the scene.
 
