@@ -1,7 +1,16 @@
 # Synthesis of 2.5D Models Based on Monocular Images
 
+## Usage
+1. Place one or more input images in the folder `input`.
+
+2. Run the model with
+
+`python run.py --layer_num <integer> --input_path <input image path> --output_path save_output`
+
 Pre-trained models are available here:
+
 Depth Estimation model: [dpt_beit_large_512](https://github.com/isl-org/MiDaS)
+
 Image Completion model: [Places_512_FullData](https://github.com/fenglinglwb/MAT)
 
 ## 1. Introduction
